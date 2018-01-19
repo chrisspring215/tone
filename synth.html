@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Synth</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <div class="display">
+        <div id="os1FreqDisplay" class="display--freq-display">
+        </div>
+        <label for="os1NoteSelector">NOTE</label>
+        <input id="os1NoteSelector" class="display--freq-slider" type="range" min="0" max="11" step="1" value="9">
+        <label for="os1OctiveSelector">OCTIVE</label>
+        <input id="os1OctiveSelector" class="display--freq-slider" type="range" min="0" max="8" step="1">
+        <label for="os1TypeSelector">WAVEFORM</label><br>
+        <select id="os1TypeSelector" class="display--freq-selector">
+            <option value="sine">SINE</option>
+            <option value="square">SQUARE</option>
+            <option value="triangle">TRIANGLE</option>
+            <option value="sawtooth">SAWTOOTH</option>
+        </select>
+        <br>
+        <label for="os1GainSelector">GAIN</label>
+        <input id="os1GainSelector" class="display--freq-slider" type="range" min="0" max="1" step=".001"value="0">
+        <button id="os1ONOFF1" class="os1ONOFF button-off" value="off">OFF</button>
+    </div>
+
+    <div class="display">
+            <div id="os2FreqDisplay" class="display--freq-display">
+            </div>
+            <label for="os2NoteSelector">NOTE</label>
+            <input id="os2NoteSelector" class="display--freq-slider" type="range" min="0" max="11" step="1" value="9">
+            <label for="os2OctiveSelector">OCTIVE</label>
+            <input id="os2OctiveSelector" class="display--freq-slider" type="range" min="0" max="8" step="1">
+            <label for="os2TypeSelector">WAVEFORM</label><br>
+            <select id="os2TypeSelector" class="display--freq-selector">
+                <option value="sine">SINE</option>
+                <option value="square">SQUARE</option>
+                <option value="triangle">TRIANGLE</option>
+                <option value="sawtooth">SAWTOOTH</option>
+            </select>
+            <br>
+            <label for="os2GainSelector">GAIN</label>
+            <input id="os2GainSelector" class="display--freq-slider" type="range" min="0" max="1" step=".001" value="0">
+            <button id="os2ONOFF2" class="os2ONOFF button-off" value="off">OFF</button>
+        </div>
+
+    <script src="js/synth.js"></script>
+</body>
+</html>

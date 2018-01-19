@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+    font-family: "roboto condensed"
+}
+
+.display {
+    border: 1px solid #ccc;
+    padding: .3em;
+    border-radius: .3em;
+    width: 20%;
+}
+
+.display--freq-display {
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: .3em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.display--freq-slider {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.display--freq-selector {
+    width: 100%;
+    margin-bottom: .5em;
+}
+
+.os1ONOFF {
+    display: block;
+    width: 100%;
+    font-size: 1.25em;
+    border: 1px solid #333;
+}
+
+.os2ONOFF {
+    display: block;
+    width: 100%;
+    font-size: 1.25em;
+    border: 1px solid #333;
+}
+
+.button-off {
+    background: rgb(255, 107, 107);
+}
+
+.button-on {
+        background: rgb(110, 255, 107);
+}
+
+/*
+.note-indicator {
+    text-align: center
+}
+
+.display--note-indicator span {
+    display: inline-block;
+    text-align: center;
+    width: 7.23%
+}
+*/
